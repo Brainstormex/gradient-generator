@@ -44,10 +44,15 @@ input[type="color"] {
   cursor: pointer;
 }
 
-input[type="color"]::-webkit-color-swatch-wrapper {
+input[type="color"]::-webkit-color-swatch {
   border-radius: 20px;
   border: none;
 }
+input[type="color"]::-moz-color-swatch {
+  border-radius: 20px;
+  border: none;
+}
+
 .buttons {
   width: 100%;
   display: flex;
